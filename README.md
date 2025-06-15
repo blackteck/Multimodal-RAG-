@@ -14,6 +14,7 @@
 
 🎛️ Clean and interactive Gradio GUI.
 
+
 🚀 Installation & Setup
 This project is designed to run in Google Colab with GPU acceleration.
 
@@ -40,10 +41,12 @@ For multimodal (text + image), it first captions the image, retrieves matching d
 Answer Aggregation: Multiple answers are summarized into one concise response using SmolVLM.
 
 🖥️ Gradio UI
-Component	Purpose
-File Upload	Upload PDF to process
-Text Query	Enter your natural language question
-Image Query	Upload an image related to the document
-Submit Button	Run the multimodal RAG process
-Output Gallery	Show top-3 relevant document pages
-Answer Box	Display generated response
+| Component      | Purpose                                 |
+| -------------- | --------------------------------------- |
+| File Upload    | Upload PDF to process                   |
+| Text Query     | Enter your natural language question    |
+| Image Query    | Upload an image related to the document |
+| Submit Button  | Run the multimodal RAG process          |
+| Output Gallery | Show top-3 relevant document pages      |
+| Answer Box     | Display generated response              |
+
